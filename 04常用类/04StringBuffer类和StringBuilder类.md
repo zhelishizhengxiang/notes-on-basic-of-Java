@@ -28,10 +28,11 @@ StringBuffer和String的对比：
 ![](assets/04StringBuffer类和StringBuilder类/file-20250216093725346.png)
 ![](assets/04StringBuffer类和StringBuilder类/file-20250216093751903.png)
 
-1. 通过构造器指定字符串缓冲区的的容量，也就是char\[]的大小
+2. 通过构造器指定字符串缓冲区的的容量，也就是char\[]的大小
 ![](assets/04StringBuffer类和StringBuilder类/file-20250216094122291.png)
 
-2. 直接制定一个字符串内容的构造器，容量是字符串长度+16
+3. 直接制定一个字符串内容的构造器，容量是字符串长度+16
+
 ![](assets/04StringBuffer类和StringBuilder类/file-20250216094559402.png)
 ![](assets/04StringBuffer类和StringBuilder类/file-20250216094543678.png)
 

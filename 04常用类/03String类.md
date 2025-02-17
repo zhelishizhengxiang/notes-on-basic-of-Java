@@ -1,4 +1,4 @@
-*### 1.String类综述
+### 1.String类综述
 String类的继承关系如下：
 
 ![](assets/03String类/file-20250215183213727.png)
@@ -13,6 +13,7 @@ String类的继承关系如下：
 ![](assets/03String类/file-20250215184844073.png)
 
 * value不可以修改是指的String类的底层代码中的value指向地址不可修改。而value指向的内容和String对象引用变量可以更改 具体体现如下图所示
+
 	![](assets/03String类/file-20250215184428617.png)
 
 	

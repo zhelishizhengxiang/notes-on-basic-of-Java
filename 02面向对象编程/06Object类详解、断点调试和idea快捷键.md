@@ -59,6 +59,7 @@ public boolean equals(Object obj) {
 
 
 * String类的重写的equals方法如下图所示：
+
 ![](assets/06Object类详解、断点调试和idea快捷键/file-20250212092600850.png)
 ![](assets/06Object类详解、断点调试和idea快捷键/file-20250212092726899.png)
 * 首先如果是同一个对象，那么返回true（因为同一个对象的字符串内容肯定相同的）
