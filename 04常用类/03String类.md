@@ -71,6 +71,7 @@ String类的继承关系如下：
 常见方法一览（**全部都是普通方法**，除了format是静态方法）：
 
 ![](assets/03String类/file-20250215195129003.png)
+![](assets/03String类/file-20250303172206825.png)
 
 ![](assets/03String类/file-20250215200003422.png)
 * **String类会重写equals方法用于比较字符串内容的值是否相同**

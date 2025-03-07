@@ -178,3 +178,5 @@ protected void finalize() throws Throwable {
 24. 数字.for就会直接出现到数字的for循环：比如10000.for
 25. ctrl+F查找，ctrl+R替换
 26. ctrl+alt+T用于给选中语句块选择包围方式（比try-catch语句块或者if-else）
+27. itit可以快速生成while的迭代器循环
+28. 大写I可以快速写出for-each循环

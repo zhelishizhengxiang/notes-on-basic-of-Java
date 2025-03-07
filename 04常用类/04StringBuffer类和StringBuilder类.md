@@ -23,7 +23,7 @@ StringBuffer和String的对比：
 
 下面讲解用处较多的构造器：
 
-1. StringBuffer类的不带字符的无参构造器的创建的初始容量为16的底层源码如下：
+1. **StringBuffer类的不带字符的无参构造器的创建的初始容量为16的底层源码如下：**
 
 ![](assets/04StringBuffer类和StringBuilder类/file-20250216093725346.png)
 ![](assets/04StringBuffer类和StringBuilder类/file-20250216093751903.png)
@@ -31,7 +31,7 @@ StringBuffer和String的对比：
 2. 通过构造器指定字符串缓冲区的的容量，也就是char\[]的大小
 ![](assets/04StringBuffer类和StringBuilder类/file-20250216094122291.png)
 
-3. 直接制定一个字符串内容的构造器，容量是字符串长度+16
+1. **直接制定一个字符串内容的构造器，容量是字符串长度+16**
 
 ![](assets/04StringBuffer类和StringBuilder类/file-20250216094559402.png)
 ![](assets/04StringBuffer类和StringBuilder类/file-20250216094543678.png)
@@ -45,13 +45,17 @@ StringBuffer和String的对比：
 
 ### 4.StringBuffer的常用方法
 ![](assets/04StringBuffer类和StringBuilder类/file-20250216100201272.png)
+![](assets/04StringBuffer类和StringBuilder类/file-20250225120856424.png)
+![](assets/04StringBuffer类和StringBuilder类/file-20250225154546917.png)
+![](assets/04StringBuffer类和StringBuilder类/file-20250225154707407.png)
+
 * StringBuffer类的toString方法其实是存放字符串内容的数组value\[]拷贝到一个cache中，然后将其作为内容返回一个字符串
 ![](assets/04StringBuffer类和StringBuilder类/file-20250216100815403.png)
 * 增：append:向字符串后追加内容,可以接受任何类型的变量，自动将其转换成字符追加
 * 删除delete：填入的形参是左闭右开区间
 * 更改replace：同样是左闭右开区间，如果被修改的内容与填入的字符串长度不一样，此方法会自动调整，不会去重复填入
 * 查找indexof:只能是查找子串,而String是字符字符串都能查找
-* .插入insert：在索引为i的位置插入指定内容，原本索引为i的内容自动后移
+* 插入insert：在索引为i的位置插入指定内容，原本索引为i的内容自动后移
 
 ![](assets/04StringBuffer类和StringBuilder类/file-20250216103031559.png)
 
